@@ -1,10 +1,9 @@
 # Bash Scripts Repo
 
-This repository contains several useful Bash scripts for various tasks including password management, website status checking, and log file analysis.
+This repository contains several useful Bash scripts for various tasks including password management, website status checking, log file analysis and a joke generator script created in Python.
 
-Short description of your project.
+## 1. Password Manager CLI
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+Password Manager CLI is a simple Bash script that helps you securely store and retrieve passwords directly from the terminal. All passwords are encrypted using the AES-256-CBC algorithm and saved locally on your computer, ensuring your data remains private and protected.
+
+### How to implement it ?
