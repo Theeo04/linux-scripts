@@ -83,7 +83,7 @@ This repository contains several useful Bash scripts for various tasks including
 
      The script will start monitoring the website and log the status in `/var/log/website-status.log`.
 
-## 3. Log File Analyzer
+## 3. Log File Analyzer - created using ChatGPT
 
 **Log File Analyzer** is a Bash script that parses server log files (e.g., Apache, Nginx) and provides useful statistics or alerts in case of errors. It helps in understanding server activity and identifying issues.
 
@@ -126,6 +126,12 @@ This repository contains several useful Bash scripts for various tasks including
      ```
 
      If the `flag.nsfw` is `true`, the script will display a different joke suitable for NSFW content.
+
+   - Edit as an alias:
+     ```bash
+     alias say-a-joke='python3 /home/ggheorghe/Desktop/LinuxScripts/scripts/python-script-joke-generator/joke-generator.py'
+     ```
+   - Run the command `say-a-joke` and have fun!
 
 ---
 
