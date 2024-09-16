@@ -19,8 +19,8 @@ This repository contains several useful Bash scripts for various tasks including
    - Add the following aliases to make the scripts easier to use:
 
      ```bash
-     alias addpw='sudo /home/ggheorghe/Desktop/LinuxScripts/scripts/passwd-manager/add-password.sh'
-     alias getpw='sudo /home/ggheorghe/Desktop/LinuxScripts/scripts/passwd-manager/get-password.sh'
+     alias addpw='sudo <path>/add-password.sh'
+     alias getpw='sudo <path>/get-password.sh'
      ```
 
    - Save the file and apply the changes:
@@ -64,7 +64,7 @@ This repository contains several useful Bash scripts for various tasks including
    - Add the following alias to make the script easier to use:
 
      ```bash
-     alias checkwebsite='sudo /home/ggheorghe/Desktop/LinuxScripts/scripts/website-checker/website-checker.sh'
+     alias checkwebsite='sudo <path>/website-checker.sh'
      ```
 
    - Save the file and apply the changes:
@@ -98,7 +98,7 @@ This repository contains several useful Bash scripts for various tasks including
    - Run the script with the path to the log file:
 
      ```bash
-     sudo /home/ggheorghe/Desktop/LinuxScripts/scripts/log-analyzer/log-analyzer.sh /var/log/nginx/access.log
+     sudo ./log-analyzer.sh /var/log/nginx/access.log
      ```
 
      The script will analyze the log file and provide statistics such as total requests, error rates, and common IP addresses or URIs.
@@ -122,7 +122,7 @@ This repository contains several useful Bash scripts for various tasks including
    - Execute the script to get a random joke:
 
      ```bash
-     python /home/ggheorghe/Desktop/LinuxScripts/scripts/joke-generator/joke-generator.py
+     python3 ./joke-generator.py
      ```
 
      If the `flag.nsfw` is `true`, the script will display a different joke suitable for NSFW content.
