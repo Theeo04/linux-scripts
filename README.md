@@ -9,4 +9,7 @@ Password Manager CLI is a simple Bash script that helps you securely store and r
 ### How to implement it ?
 
 - Create an alias for functions created: 'add-password.sh' and 'get-password.sh'
-  \ nano ~/.bash_aliases \
+  ```bash
+  nano ~/.bash_aliases
+
+- 
