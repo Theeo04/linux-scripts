@@ -7,3 +7,6 @@ This repository contains several useful Bash scripts for various tasks including
 Password Manager CLI is a simple Bash script that helps you securely store and retrieve passwords directly from the terminal. All passwords are encrypted using the AES-256-CBC algorithm and saved locally on your computer, ensuring your data remains private and protected.
 
 ### How to implement it ?
+
+- Create an alias for functions created: 'add-password.sh' and 'get-password.sh'
+  \ nano ~/.bash_aliases \
