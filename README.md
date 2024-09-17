@@ -134,5 +134,3 @@ This repository contains several useful Bash scripts for various tasks including
    - Run the command `say-a-joke` and have fun!
 
 ---
-
-Feel free to adjust the paths and filenames according to your actual setup and preferences.
